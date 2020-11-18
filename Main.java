@@ -63,9 +63,9 @@ class Main
       output.flush();
       output.close(); 
     } 
-    catch (IOException excpt) 
+    catch (IOException exception) 
     { 
-      excpt.printStackTrace(); 
+      System.out.println("An error occurred: " + exception);
     } 
   }
 }
